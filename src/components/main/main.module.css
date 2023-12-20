@@ -1,0 +1,47 @@
+.main_container {
+  grid-area: main;
+}
+.main_section {
+  padding: 50px;
+}
+.main_heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.monthly_annually {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.monthly_annually_sec {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.monthly {
+  background-color: #add8e6;
+  border-radius: 30px;
+  margin-right: 10px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 5px;
+}
+.annually {
+  margin: 5px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.monthly,
+.annually {
+  padding: 10px 20px;
+}
+
+.importent p {
+  text-align: end;
+  color: #5c9cb1;
+  margin-top: 10px;
+}

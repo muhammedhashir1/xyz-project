@@ -1,0 +1,22 @@
+.logout_container {
+  grid-area: logout;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf4fb;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logout_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.logout_image {
+  max-width: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.header_container {
+  grid-area: header;
+  background-color: #add8e6;
+}
+
+.header_company_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.header_company {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.header_company img {
+  max-width: 50px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.header_company span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.header_company_arrow {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header_company_arrow svg {
+  font-size: 1.5em;
+  margin: 11px;
+}

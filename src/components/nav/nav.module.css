@@ -1,0 +1,37 @@
+.nav_container {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-bottom: 100%;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav_btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.nav_btn img {
+  max-width: 24px;
+}
+
+.nav_btn span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.selected {
+  background-color: #add8e6;
+  width: 90%;
+  border: 1px solid #add8e6;
+  border-radius: 5px;
+}

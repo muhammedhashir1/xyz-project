@@ -1,0 +1,17 @@
+.notification_container {
+  grid-area: notification;
+  background-color: #add8e6;
+  display: grid;
+  align-content: space-between;
+  justify-items: end;
+}
+.notf_div {
+  margin-top: 200px;
+  padding: 5px 4px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.save_div {
+  cursor: pointer;
+}
